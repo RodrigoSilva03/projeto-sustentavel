@@ -1,0 +1,704 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Gramas e Composto Dantola</title>
+    <link rel="icon" href="imagens/favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+
+  <body>
+
+	  
+	   	<div class="modal fade" id="quemsomos" tabindex="-1" role="dialog" aria-labelledby="meumodal">
+	
+		<div class="modal-dialog" role="document">
+		
+			<div class="modal-content">
+				
+				<div class="modal-header">
+				
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+					
+						<center><h4 class="modal-title" id="meumodal">Quem Somos?</h4></center>
+					
+				</div>
+		
+				
+				<div class="modal-body">
+				
+				<center>
+					
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore delectus alias distinctio itaque neque, a unde nam! Accusamus, id! Nihil obcaecati incidunt voluptatibus aut ullam totam autem adipisci enim, modi repudiandae dolore cumque voluptates quae, fugit consequatur rerum sed. Corrupti error dicta tenetur consequuntur suscipit earum alias laborum nobis facere.</p>
+					
+					<hr>
+					
+					<h4>Nossa Empresa</h4>
+						
+						<p><img class="empresa" src="imagens/Empresa.JPG" alt="A Empresa"></p>
+					
+
+					</center>
+					  
+				
+				</div>
+				
+				<div class="modal-footer">
+				
+					<center><button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button></center>
+					
+					
+					
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	  
+	  
+	  
+	   	<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="meumodal">
+	
+		<div class="modal-dialog" role="document">
+		
+			<div class="modal-content">
+				
+				<div class="modal-header">
+				
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+					
+						
+					
+				</div>
+		
+				
+				<div class="modal-body">
+				
+				<center>
+					
+					
+					
+					</center>
+					  
+				
+				</div>
+				
+				<div class="modal-footer">
+				
+					<center><button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button></center>
+					
+					
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	  
+	  <div class="modal fade" id="orcamento" tabindex="-1" role="dialog" aria-labelledby="meumodal">
+	
+		<div class="modal-dialog" role="document">
+		
+			<div class="modal-content">
+				
+			<div class="modal-header">
+				
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+					
+				<h4 class="modal-title" >Orçamento</h4>
+					
+				</div>
+		
+				
+				<div class="modal-body">
+				
+			<form action="orcamento_envia.php" name="form_orcamento" id="form_orcamento" method="post">
+			
+	    <div class="col-md-12">
+            <label for="name" class="col-form-label">Nome:</label>
+            <input type="text" class="form-control" name="nome_orcamento" id="nome_orcamento" placeholder="Digite seu nome" required>
+		</div> 
+			
+        <div class="col-md-12">
+            <label for="email" class="col-form-label">E-mail:</label>
+            <input type="email" class="form-control" name="email_orcamento" id="email_orcamento" placeholder="Digite seu e-mail" required>
+		</div> 
+         
+					 
+					 
+			<div class="col-md-10"><div class="form-group"> <label for="cidade"> Cidade</label><input name="cidade" type="text" class="form-control" id="cidade" placeholder="Cidade onde reside"></div></div>  
+					 <div class="col-md-2"><div class="form-group"> <label for="uf"> UF</label><input name="estado" type="text" class="form-control" id="estado" placeholder="UF"></div></div>
+				
+					 
+					 
+		  <div class="col-md-12">
+    			<label for="select_produto">Produto:
+   				 <select class="form-control" name="produto_orcamento" id="assunto_orcamento">
+					 
+      				<option>Grama</option>
+      					<option>Composto</option>
+      					
+    			</select>
+			  </label>
+  			</div>	
+			<div class="col-md-12">  
+               <label form="text">Mensagem</label>    
+               <textarea class="form-control" rows="3" name="mensagem_orcamento" id="mensagem_orcamento" placeholder="Digite sua mensagem" required></textarea>
+            </div>	  
+      	       
+		</form>
+					  
+				
+				</div>
+				
+				<div class="modal-footer">
+				
+					
+					
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	  
+	  <div class="modal fade bd-example-modal-lg" id="produtos" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+	  
+					
+				<div class="modal-header">
+				
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+					
+						
+					
+				</div>
+		
+				
+				<div class="modal-body">
+				
+				  <div class="produtosimg">
+		  <div class="container">
+			
+	
+		    <div class="col-md-3">
+		   <div class="zoom">
+			<img src="imagens/card1.JPG" class="img-responsive">
+			<div class="text-item">
+			<h3>lorem</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, itaque!</p>
+			
+			</div>
+			</div>
+		   </div>
+		   
+		   
+		   <div class="col-md-3">
+		   <div class="zoom">
+			<img src="imagens/bone.JPG" class="img-responsive">
+			<div class="text-item">
+			<h3>Bonés</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ad.</p>
+		
+			</div>
+			</div>
+		   </div>
+	
+	  
+	     <div class="col-md-3">
+		   <div class="zoom">
+			<img src="imagens/card3.JPG" class="img-responsive">
+			<div class="text-item">
+			<h3>Nossa Produção</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, minima.</p>
+			
+			</div>
+			</div>
+		   </div>
+		   
+					
+		
+		  </div>
+	</div>	
+					  
+				
+				</div>
+				
+				<div class="modal-footer">
+				
+					<center><button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button></center>
+					
+					
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	  
+	  
+	  	   	
+	  
+	  
+	  <div class="modal fade" id="modalcontato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contate-nos</h5>
+		  
+		  <img src="imagens/logocentro.png" alt="..." width="200px" height="70px">
+		  
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form action="contato_envia.php" name="form_contato" id="form_contato" method="post">
+			
+	    <div class="form-group">
+            <label for="name" class="col-form-label">Nome:</label>
+            <input type="text" class="form-control" name="nome_contato" id="nome_contato" placeholder="Digite seu nome" required>
+		</div> 
+			
+        <div class="form-group">
+            <label for="email" class="col-form-label">E-mail:</label>
+            <input type="email" class="form-control" name="email_contato" id="email_contato" placeholder="Digite seu e-mail" required>
+		</div> 
+         <br>
+			  
+		  <div class="form-group">
+    			<label for="select_assunto">Assunto:
+   				 <select class="form-control" name="assunto_contato" id="assunto_contato">
+					 
+      				<option>Sugestões</option>
+      					<option>Dúvidas</option>
+      					<option>Seja um parceiro</option>
+    			</select>
+			  </label>
+  			</div>	
+			<div class="form-group">  
+               <label form="text">Mensagem</label>    
+               <textarea class="form-control" rows="3" name="mensagem_contato" id="mensagem_contato" placeholder="Digite sua mensagem" required></textarea>
+            </div>	  
+      	       
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <!-- Modal Dicas -->
+	   	<div class="modal fade" id="dicas" tabindex="-1" role="dialog" aria-labelledby="meumodal">
+	
+		<div class="modal-dialog" role="document">
+		
+			<div class="modal-content">
+				
+				<div class="modal-header">
+				
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+					
+						<h3 class="modal-title"><b>Dicas</b></h3>
+					
+				</div>
+		
+				
+				<div class="modal-body">
+				
+				
+<h3><b>Preparo do Solo</b></h3>			
+<center>		
+<p class="text-justify">O primeiro passo para o plantio deve ser a eliminação da vegetação existente (por capina ou aplicação de produtos). Em seguida, uma análise do solo poderá servir de base para a determinação das quantidades de corretivos e fertilizantes a serem adicionados. Com o solo já descompactado e nivelado, os corretivos devem ser adicionados de acordo com as necessidades constatadas.</p>
+					
+					<div class="zoom"><img src="imagens/preparo.JPG" alt="..." width="100%"></div>
+</center>
+					<hr>
+					
+					<h3><b>Plantio da Grama</b></h3>	
+<center>
+<p class="text-justify">O plantio deverá ser feito logo após o recebimento da grama, que não pode ser armazenada por um longo período. Os tapetes devem ser colocados lado a lado, sua proximidade varia dependendo do tipo da grama. Faça irrigação diária durante 30 dias, esse é o período de enraizamento e adaptação da grama ao solo. Recomenda-se a cobertura com terra logo após o plantio da grama, (de boa procedência, limpa de ervas daninhas, sementeiras ou qualquer tipo de vegetação.). A adubagem é recomendada após 40 dias do plantio.</p>
+						
+						<div class="zoom"><img src="imagens/plantiomodal.jpg" alt=".." width="100%"></div>
+					
+
+					</center>
+					
+					<hr>
+					
+					<h3><b>Adubação</b></h3>	
+<center>
+<p class="text-justify">Para garantir os nutrientes necessários, além de material orgânico, o solo precisa de fertilizantes ricos em nitrogênio, fósforo e potássio. Isso é feito através da adubação orgânica e /ou química. Cuidado! O adubo pode queimar as folhas. Por isso, o gramado deve ser muito regado sempre após a adubação. Sob as árvores, a dosagem deve ser dobrada. Recomendamos a contratação de serviços profissionais para essa atividade. A adubação é realizada geralmente na primavera, mas também varia de acordo com cada espécie de grama.</p>
+						
+						<div class="zoom"><img src="imagens/adubacao.jpg" alt=".." width="100%"></div>
+					
+
+					</center>
+					
+					
+					<hr>
+					
+					<h3><b>Inrrigaçao</b></h3>	
+<center>
+<p class="text-justify">Aqui, a regra básica é: não encharque o gramado no tratamento de manutenção! Procure uma quantidade adequada de água. Tocar a terra durante a rega pode ajudá-lo a sentir a umidade da terra. A frequência da irrigação varia conforme o clima da região e a espécie de grama. Considere intervalos mínimos de 15 dias no verão e até no máximo 60 dias no inverno para essa atividade.</p>
+						
+						<div class="zoom"><img src="imagens/inrrigacao.jpg" alt=".." width="100%"></div>
+					
+
+					</center>
+					
+					
+					<hr>
+					
+					<h3><b>Poda</b></h3>	
+<center>
+<p class="text-justify">A poda é muito importante, pois ela fortalece o gramado. O crescimento da grama depende da espécie, aquelas indicadas para climas quentes crescem mais rápido, tendo, portanto, uma poda mais frequente. Geralmente, ao atingirem entre 2 a 3 cm elas já podem ser podadas.</p>
+						
+						<div class="zoom"><img src="imagens/poda.jpg" alt=".." width="100%"></div>
+					
+
+					</center>
+					  
+				
+				</div>
+				
+				<div class="modal-footer">
+				
+					<center><button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button></center>
+					
+					
+					
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>	  
+	  
+	  
+
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+      <div class="container">
+        
+        <!-- header -->
+        <div class="navbar-header">
+          
+          <!-- botao toggle -->
+          <button type="button" class="navbar-toggle collapsed"
+                  data-toggle="collapse" data-target="#barra-navegacao">
+            <span class="sr-only">alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <span class="img-logo"></span>
+          </a>
+
+        </div>
+		  
+
+        <!-- navbar -->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Início</a></li>
+			<li><a href="" data-toggle="modal" data-target="#modal2">Empresa</a></li>
+            <li><a href="" data-toggle="modal" data-target="#produtos">Produtos</a></li>  
+			<li><a href="" data-toggle="modal" data-target="#dicas">Dicas</a></li> 
+			<li><a href="" data-toggle="modal" data-target="#orcamento">Solicite um Orçamento</a></li>
+			<li><a href="" data-toggle="modal" data-target="#modalcontato">Contato</a></li>
+          </ul>
+        </div>
+      </div><!-- /container -->
+    </nav><!-- /nav -->
+
+ 
+	  <div class="container hidden-xs">
+		  
+	  
+	  <ul>	
+		  <div class="col-md-4">	 
+	<li>
+     <ul class="demo-1 effect">
+        <li>
+            <h2>Plantio de Gramas</h2>
+            <p>Escolher o tipo ideal de Grama para jardim, campo de futebol, talude, entre outros, nem sempre é fácil. Muitos escolhem apenas pela aparência da grama e isso pode resultar um grande erro</p>
+        </li>
+        
+        <li><img class="top" src="imagens/1.jpg" alt=""></li>
+    </ul>
+</li>
+		</div>  
+
+<div class="col-md-4">
+<li>
+	
+     <ul class="demo-1 effect">
+        <li>
+            <h2>This is a cool title!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+        </li>
+        
+        <li><img class="top" src="imagens/2.jpg" alt=""></li>
+    </ul>
+		
+</li>
+</div>
+
+<div class="col-md-4">
+<li>
+	
+     <ul class="demo-1 effect">
+        <li>
+            <h2>This is a cool title!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+        </li>
+        
+        <li><img class="top" src="imagens/3.jpg" alt=""></li>
+    </ul>
+		
+</li>
+</div>
+</ul>
+		  </div>
+
+	  
+	  
+    <div class="capa"> 	
+      <div class="texto-capa">
+		  	  
+
+		<!-- slide desliza
+		<marquee behavior="slide" direction="right>"></marquee>-->
+		  
+
+		 	  
+		<a class="btn btn-custom btn-centro btn-lg espacado" data-toggle="modal" data-target="#quemsomos">Quem Somos?</a>
+		
+		<a href="#nossosservicos" class="btn btn-custom btn-centro btn-lg espacado">Nossos Serviços</a>
+		  
+		
+		</div>
+    </div>
+
+    <!-- Conteudos -->
+	  <a id="nossosservicos"></a>	
+    <section id="servicos">
+      <div class="container">
+        <div class="row">
+
+          <!-- albuns -->
+          <div class="col-md-6 hidden-xs">
+            
+            <div class="row albuns">
+              
+              <div class="zoom col-md-6">
+                <img src="../projeto-sustentavel/imagens/final1.jpg"  class="img-responsive">
+              </div>
+              <div class="zoom col-md-6">
+                <img src="../projeto-sustentavel/imagens/final2.jpg"  class="img-responsive">
+              </div>
+
+            </div><!-- /row -->
+
+            <div class="row albuns">
+              
+				
+              <div class="zoom col-md-6">
+                <img src="../projeto-sustentavel/imagens/final3.jpg" class="img-responsive">
+              </div>
+				
+              <div class="zoom col-md-6">
+                <img src="../projeto-sustentavel/imagens/final5.jpg" class="img-responsive">
+              </div>
+
+            </div><!-- /row -->
+
+          </div>
+
+          <!-- servicos -->
+			
+			
+			
+		
+			
+		
+          <div class="col-md-6">
+            <h2>Nossos Serviços</h2>
+            <p>&nbsp;</p>
+            <h3>Composto</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, ipsa, alias. Perspiciatis vitae quidem, voluptate neque saepe, nesciunt maxime explicabo.</p>
+
+            <h3>Paisagismo e Jardins</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit tempore quam assumenda eos sequi officia et sunt repudiandae recusandae magni!</p>
+
+            <h3>Hortas</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime, in at, ducimus fugit quos laboriosam vero repellendus suscipit perspiciatis.</p>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+	  
+	  
+	 
+	  <div class="container description">
+		  
+		  <div class="descriptor">
+			  
+			  <div class="descriptor-footer">
+				  
+				  <h2 class="title">Procurando por gramas e composto de qualidade a pronta entrega para todo o Brasil?</h2>
+				  
+				  <p class="sub">Entre em contato com a Grama & Composto Dantola, temos sempre a grama mais verde e uma equipe de profissionais prontos para atender a seus pedidos, esclarecendo suas dúvidas sobre aplicação e cuidados com o seu gramado e suas hortas.</p>
+				  
+			  </div>
+		  </div>
+	  </div>
+
+	  
+
+	  <center><font color="white" size="20px"> Conheça nossas variedades</font></center>
+	 
+	
+	 
+    
+		
+	  <div class="variedades">
+		  <div class="container">
+			
+	
+		    <div class="col-md-4">
+		   <div class="zoom">
+			<img src="imagens/card1.JPG" class="img-responsive">
+			<div class="text-item">
+			<h3>Terra Organica</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, itaque!</p>
+			
+			</div>
+			</div>
+		   </div>
+		   
+		   
+		   <div class="col-md-4">
+		   <div class="zoom">
+			<img src="imagens/card2.JPG" class="img-responsive">
+			<div class="text-item">
+			<h3>Hortas</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ad.</p>
+		
+			</div>
+			</div>
+		   </div>
+	
+	  
+	     <div class="col-md-4">
+		   <div class="zoom">
+			<img src="imagens/card3.JPG" class="img-responsive">
+			<div class="text-item">
+			<h3>Nossa Produção</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, minima.</p>
+			
+			</div>
+			</div>
+		   </div>
+		   
+					
+		
+		  </div>
+	</div>	
+
+	  
+	  <hr>
+	  
+    <!-- Rodape -->
+    <footer id="rodape">
+     <div class="container">
+          <div class="col-md-4 col-sm-6">
+            <ul class="nav">
+				<li><a href=""><img src="imagens/logomenu.png" class="img-responsive" style="max-width: 50%"></a></li>
+				<li><p class="p">"O desenvolvimento que satisfaz as necessidades do presente sem comprometer a capacidade das gerações futuras de satisfazerem suas próprias necessidades".</p></li>
+              <li class="item-rede-social"><a href="https://www.facebook.com/pg/itapetiningasustentavel" target="_blank"><img src="imagens/facebook.png"></a></li>
+              <li class="item-rede-social"><a href="" target="_blank"><img src="imagens/twitter.png"></a></li>
+              <li class="item-rede-social"><a href="" target="_blank"><img src="imagens/instagram.png"></a></li>
+            </ul>
+          </div>
+		  <div id="rodapetipografia" class="hidden-xs">
+          <div class="col-md-2 col-sm-3">
+            <b><h4>G & C Dantola</h4></b>
+            <ul class="nav">
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Políticas</a></li>
+              <li><a href="">Termos de uso</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 col-sm-3">
+            <b><h4>Comunidades</h4></b>
+            <ul class="nav">
+              <li><a href="">Eventos</a></li>
+              <li><a href="https://www.facebook.com/willian.roberto.7798574" target="_blank">Desenvolvedores</a></li>
+              <li><a href="">Patrocinadores</a></li>
+            </ul>
+          </div>
+		  <div class="col-md-4 col-sm-2 hidden-sm" id="maps">
+			<b><h4>Nosso Local</h4></b>
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117040.1623650191!2d-47.94331822158981!3d-23.55029705081009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5c69b5bd7bb8f%3A0x8d7b118b6753ba85!2sAlambari+-+SP!5e0!3m2!1spt-BR!2sbr!4v1549450088929" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+			  
+		  </div>
+		  </div>
+        </div><!-- /row -->
+		
+		<div class="seta"><a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></div>
+		
+		
+	<hr>
+	<center><font color="white">Copyright 2019 Gramas & Composto Dantola Todos os direitos reservados</font></center>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="bootstrap/jquery.min.js"></script>
+	<!-- Plugin JS-->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	  <script type="text/javascript">
+		$( window ).scroll(function() {
+    	nScrollPosition = $( window ).scrollTop();
+    	if(nScrollPosition>=100){
+         $( ".seta" ).css( "display", "block" );
+		}else{
+         $( ".seta" ).css( "display", "none" );
+    	}
+		});
+		  
+		  $('.more').click(function(){
+   $('.oculta').slideToggle(); 
+});
+		 
+	  
+	</script>
+  </body>
+</html>
